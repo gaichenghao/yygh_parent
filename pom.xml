@@ -4,12 +4,6 @@
     <modelVersion>4.0.0</modelVersion>
     <modules>
         <module>common</module>
-        <module>common_utils</module>
-        <module>service_util</module>
-        <module>common_util</module>
-        <module>common</module>
-        <module>common_utils</module>
-        <module>common_util</module>
         <module>model</module>
         <module>service</module>
     </modules>

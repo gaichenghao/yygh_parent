@@ -12,6 +12,10 @@
     <artifactId>service</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
+    <modules>
+        <module>service_hosp</module>
+        <module>service_user</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>com.atguigu</groupId>
