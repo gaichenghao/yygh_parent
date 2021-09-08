@@ -133,7 +133,7 @@ public class HospitalSetController {
     }
 
     //8 医院设置锁定和解锁
-    @PostMapping("lockHospitalSet/{id}/{status}")
+    @PutMapping("lockHospitalSet/{id}/{status}")
     public Result lockHospitalSet(@PathVariable Long id,
                                   @PathVariable Integer status){
         //根据id查询医院设置信息
