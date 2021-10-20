@@ -25,6 +25,7 @@ public class Dict {
 
     private static final long serialVersionUID = 1L;
 
+    //比较特殊 id从基类中迁出
     @ApiModelProperty(value = "id")
     private Long id;
 
