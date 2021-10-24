@@ -35,7 +35,7 @@ public class DictController {
         //return Result.ok();
     }
 
-    //根据dictCode获取下级截点
+    //根据dictCode获取下级节点
     @ApiOperation(value = "根据dictCode获取下级节点")
     @GetMapping("findDictCode/{dictCode}")
     public Result findDictCode(@PathVariable String dictCode){
